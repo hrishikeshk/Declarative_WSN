@@ -8,3 +8,5 @@ First task is to create a simple code for calculating the shortest path in a net
 
 The pyDatalog language (described https://sites.google.com/site/pydatalog/Online-datalog-tutorial) is being used to implement. This includes the entire library support from Python and added facilities to define facts, predicates in the logic programming paradigm.
 
+Jul 5 2015 : Need to create an implementation of the OSPF protocol : This should include the phases of the link state flooding for network updates to each node followed by finding the shortest path using Dijkstra's algorithm.
+

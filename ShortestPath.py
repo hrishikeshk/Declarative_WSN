@@ -16,5 +16,5 @@ path(Src, Dest, Path, Cost) <= link(Src, Next, Cost1) & path(Next, Dest, Path2, 
 
 (shortestPath[Src, Dest]==min_( Path, order_by=Cost)) <= (path(Src, Dest, Path, Cost))
 
-print ( (shortestPath [Src, Dest] == Path) & (path (Src, Dest, Path, Cost)) ) & (Src == a) & (Dest == d)
+print ( (shortestPath [Src, Dest] == Path) & (path (Src, Dest, Path, Cost)) ) & (Src == e) & (Dest == d)
 
